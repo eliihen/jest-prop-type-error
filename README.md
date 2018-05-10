@@ -41,7 +41,7 @@ Thanks to [Stian Didriksen][stian] for the idea in his talk about Jest at the
 ReactJS Oslo Meetup 9th May 2018.
 
 [pt]: https://facebook.github.io/react/docs/typechecking-with-proptypes.html
-[blog]:
+[blog]: https://medium.com/shark-bytes/type-checking-with-prop-types-in-jest-e0cd0dc92d5
 [react]: https://reactjs.org/
 [jest]: https://facebook.github.io/jest/
 [stian]: https://twitter.com/stipsan
