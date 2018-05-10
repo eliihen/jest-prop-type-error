@@ -1,0 +1,24 @@
+{
+  "name": "jest-prop-type-error",
+  "description": "Makes Jest throw on React prop-type failures",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Espen Henriksen",
+  "license": "MIT",
+  "homepage": "https://github.com/esphen/jest-prop-type-error",
+  "repository": "esphen/jest-prop-type-error",
+  "bugs": {
+    "url": "https://github.com/esphen/jest-prop-type-error/issues"
+  },
+  "keywords": [
+    "jest",
+    "react",
+    "test",
+    "testing",
+    "prop-type",
+    "prop-types",
+    "error",
+    "fail",
+    "throw"
+  ]
+}
