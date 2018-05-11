@@ -1,9 +1,9 @@
-const originalConsoleError = console.error;
+const error = console.error;
 
-console.error = message => {
-  if (/(Failed prop type)/.test(message)) {
+console.error = (message, ...args) => {
+  if (/(Invalid prop|Failed prop type)/gi.test(message)) {
     throw new Error(message);
   }
 
-  originalConsoleError(message);
+  error.apply(console, [message, ...args]);
 };
