@@ -1,7 +1,7 @@
 {
   "name": "jest-prop-type-error",
   "description": "Makes Jest throw on React prop-type failures",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "index.js",
   "author": "Espen Henriksen",
   "license": "MIT",
