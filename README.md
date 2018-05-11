@@ -37,6 +37,10 @@ If there is no jest section in your `package.json`, add one and use that.
 Now simply run your tests like usual, and prop-type errors will throw instead
 of logging a warning!
 
+# Requirements
+
+Requires node 6 or later
+
 # Acknowledgments
 
 Thanks to [Stian Didriksen][stian] for the idea in his talk about Jest at the
