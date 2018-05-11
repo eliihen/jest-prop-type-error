@@ -11,7 +11,9 @@ into production.
 This is possible to solve with [Jest][jest] by making prop-type errors throw
 instead of only logging a warning. In this case your tests would run and
 whenever a wrong prop is passed to a component, the prop-type validation would
-pick this up and fail the test. Then we would be able to
+pick this up and fail the test. Then we would be able to verify that the props
+that are passed to our components are good compile-time, provided the tests
+run when we build our production bundle.
 
 That is what this library does!
 
