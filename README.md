@@ -19,6 +19,12 @@ That is what this library does!
 
 [Read this blog][blog] for a more in-depth explanation.
 
+## Before
+![The test shows a warning and passes](assets/proptype-test-warning.png)
+
+## After
+![The test shows an error and fails](assets/proptype-test-error.png)
+
 # Install
 
     yarn add -D jest-prop-type-error
