@@ -43,6 +43,14 @@ If there is no jest section in your `package.json`, add one and use that.
 Now simply run your tests like usual, and prop-type errors will throw instead
 of logging a warning!
 
+# Usage with Create React App
+
+Create React App doesn't allow the use of the `setupFiles` directive. To use with 
+create-react-app, simply require 'jest-prop-type-error' in your `setupTests.js` file 
+after installing the package:
+
+      import 'jest-prop-type-error'
+
 # Requirements
 
 Requires node 6 or later
